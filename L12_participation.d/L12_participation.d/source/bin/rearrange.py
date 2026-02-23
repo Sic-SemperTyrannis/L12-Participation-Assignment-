@@ -27,6 +27,5 @@ for row in csvReader:
         newRow = [row[0], row[1], row[4]]
         csvWriter.writerow(newRow)
 
-# missing two lines
 infile.close()
 outfile.close()
